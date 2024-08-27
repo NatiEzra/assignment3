@@ -1,7 +1,6 @@
 package test;
 
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -92,7 +91,7 @@ public class MainTrain {
 		
 		return txt;
 	}
-	
+	/*
 	public static void testDM() {
 		String t1[]=writeFile("t1.txt");
 		String t2[]=writeFile("t2.txt");
@@ -135,7 +134,7 @@ public class MainTrain {
 			System.out.println("your code ran into an IOException (-10)");
 		}
 	}
-	
+	 
 	public static void testBSCH() {
 		String s1[]=writeFile("s1.txt");
 		String s2[]=writeFile("s2.txt");
@@ -152,11 +151,12 @@ public class MainTrain {
 		runClient(port, "C,s1.txt,s2.txt,#"+s2[1], false);
 		s.close();
 	}
-	
+	*/
 	public static void main(String[] args) {
 		if(testServer()) {
-			testDM();
-			testBSCH();			
+			System.out.println("inside if");
+			//testDM();
+			//testBSCH();			
 		}
 		System.out.println("done");
 	}
