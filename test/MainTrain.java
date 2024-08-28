@@ -91,7 +91,7 @@ public class MainTrain {
 		
 		return txt;
 	}
-	/*
+	
 	public static void testDM() {
 		String t1[]=writeFile("t1.txt");
 		String t2[]=writeFile("t2.txt");
@@ -116,7 +116,7 @@ public class MainTrain {
 			System.out.println("wrong size for the Dictionary Manager (-10)");
 		
 	}
-	
+	/* 
 	public static void runClient(int port,String query,boolean result) {
 		try {
 			Socket server=new Socket("localhost",port);
@@ -155,7 +155,7 @@ public class MainTrain {
 	public static void main(String[] args) {
 		if(testServer()) {
 			System.out.println("inside if");
-			//testDM();
+			testDM();
 			//testBSCH();			
 		}
 		System.out.println("done");
